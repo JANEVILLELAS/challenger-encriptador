@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" origem cruzada>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Madimi+One&display=swap" rel="folha de estilo">
+    <title>Codificador e Decodificador</title>    
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    
+    <main class="main container">
+    <header class="cabecalho">
+            <img src="/imagens/alura.jpg" alt="logo alura">
+            <h1>Mensagens codificadas</h1>
+         </header>
+       
+        <div class="container-input">
+                <div class="input">
+                    <textarea id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+                    <p>ATENÇÃO: Apenas letras minúsculas e sem ascento</p>
+           </div>
+        
+    <div id="output">
+        <span>Digite um texto que deseja criptografar ou descriptografar</span>
+         <h2>Sua mensagem aparecerá aqui!</h2>
+         
+    </div>
+    </div>
+
+    <div class="buttons">
+        <div class="container-bnt">
+          <button onclick="criptografar()"class="btn-criptografar">Criptografar</button>
+          <button onclick="descriptografar()"class="btn-descriptografar">Descriptografar</button>
+       </div>      
+    </div>
+    </main>
+
+    <footer class="rodape">
+        <h3>Desenvolvido por Jane Mara</h3>
+    </footer>
+
+    <script src="js.js"></script>
+    
+</body>
+</html>
